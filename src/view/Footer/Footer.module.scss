@@ -1,0 +1,116 @@
+@import '../../variables.scss';
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: $primary-color;
+    color: white;
+    padding: 0 26px;
+}
+.content{
+    margin: 0 auto;
+    padding-top: 46px;
+    padding-bottom: 150px;
+    width: 265px;
+}
+.content__blok1{
+    position: relative;
+}
+.phone{
+    padding: 26px 0;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 70px;
+    width: 265px;
+    // right: 0;
+}
+.phone__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.phone__item_name{
+    width: 80px;
+    text-align: left;
+    overflow: hidden;
+}
+.phone__item_namber{
+padding-left: 15px;
+}
+.phone__item::before {
+    display: block;
+    content: " ";
+    padding-left: 16px;
+    width: 28px;
+    height: 30px;
+    background-image: url(./../../image/social_icons/viber.png);
+    background-repeat: no-repeat;
+}
+.social{
+    width: 100%;
+    padding: 40px 0;
+    padding-top: 180px;
+}
+.social__list{
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social__item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.email{
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 23px;
+    // padding-top: 42px;
+}
+
+@media screen and (min-width: 768px) {
+    .main{
+        padding: 100px 26px;
+    }
+    .content{
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .content__blok1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .nav{width: 220px;}
+    .social{
+        padding-top: 40px;
+        width: 100%;
+    }
+    .phone__item_namber{
+        position: unset;
+    }
+    .social__item3{
+        order: -1;
+    }
+    .content__blok2 {
+        padding-top: 100px;
+    }
+    .phone{
+        position: unset;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .nav{width: 260px;}
+}

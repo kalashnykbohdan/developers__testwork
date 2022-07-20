@@ -1,0 +1,140 @@
+@import '../../../variables.scss';
+
+.drawdown{
+    background-color: #DAECFF;
+    padding: 16px 0;
+}
+.drawdown__title{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 34.5px;
+}
+.drawdown__list{
+    list-style-type: none;
+    padding: 0;
+}
+.drawdown__item{
+    text-align: left;
+    width: 100%;
+    height: auto;
+
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.drawdown__item:last-child{
+    margin-bottom: 0px;
+}
+.drawdown__itembth{
+    width: 100%;
+    padding: 14px 24px;
+    // background-color: #75E169;
+}
+.drawdown__itembth:hover{
+    // background-color: #d0e7ff;
+    border-radius: 15px;
+}
+.drawdown__item_title{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: left;
+    
+    text-align: left;
+    // flex-wrap: wrap;
+    
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29.75px;
+    color:#111111;
+    
+}
+.drawdown__item_title::before{
+    display: block;
+    content: " ";
+    width: 15px;
+    height: 15px;
+    background-color: $button-color;
+    border-radius: 50%;
+    margin-right: 18px;
+    flex-shrink: 0;
+}
+
+.drawdown__item_title__active::before{
+    background-color: $primary-color;
+}
+
+.drawdown__wraptitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drawdown__item_arrow{
+    width: 25px;
+    height: 25px;
+    padding-left: 18px;
+    flex-shrink: 0;
+}
+// .drawdown__item_title::after{
+//     display: block;
+//     content: url(../../../211687_down_arrow_icon.svg);
+//     width: 25px;
+//     height: 25px;
+
+// }
+.drawdown__item_text{
+    display: none;
+
+    margin-left: 6px;
+    padding: 10px 0;
+    padding-left: 28px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border-left: 1px solid black;
+
+    font-size: 18px;
+    line-height: 31.5px;
+}
+
+// .drawdown__item_text::before{
+//     display: block;
+//     content: " ";
+//     width: 1px;
+//     height: 100%;
+//     background-color: black;
+//     border-left: 3px solid black;
+//     margin-left: 10px;
+// }
+
+// #arrow_down{
+//     width: 200px;
+//     height: 200px;
+// }
+
+.rawdown__item_text_active{
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+    .drawdown{
+        background-color: #DAECFF;
+        padding: 120px 0;
+    }
+    .drawdown__title{
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 40px;
+    }
+    .drawdown__item_title{
+        font-size: 18px;
+        line-height: 31.5px;
+        
+    }
+}

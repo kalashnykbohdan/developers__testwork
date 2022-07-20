@@ -1,0 +1,79 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+h1,h2,h3,h4,h5,p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.active {display: block;}
+
+button{
+  background-color: #11ffee00;
+  border: 0;
+  cursor: pointer;
+}
+
+.button{
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: $button-color;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.button:hover{
+  
+  border: 2px solid $primary-color;
+}
+.button:active{
+  background-color: $primary-color;
+}
+.button:disabled{
+  background-color: rgb(172, 172, 172);
+  border-color: rgb(172, 172, 172);
+}
+.container {
+  // position: relative;
+  padding: 0 20px;
+  width: calc(100% - 40px);
+  height: auto;
+  
+}
+
+@media screen and (min-width: 768px){
+  .container{
+    margin: 0 auto;
+    width: 700px;
+  }
+  .button{
+    width: 270px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .container{
+    width: 1000px;
+  }
+}
+@media screen and (min-width: 1920px){
+  .container{
+    width: 1130px;
+  }
+}
