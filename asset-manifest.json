@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/developers__testwork/static/css/main.f975c49d.css",
+    "main.js": "/developers__testwork/static/js/main.7bb4757e.js",
+    "static/media/pexels-shiny-diamond-3373739.png": "/developers__testwork/static/media/pexels-shiny-diamond-3373739.5a5707b3aabe266370b8.png",
+    "static/media/color-palette-catalogue-scheme-roller.png": "/developers__testwork/static/media/color-palette-catalogue-scheme-roller.6d803f69cbc062441738.png",
+    "static/media/baby-s-breath-flower-bottom-purple-backdrop.png": "/developers__testwork/static/media/baby-s-breath-flower-bottom-purple-backdrop.507a9e782ea6de8e1162.png",
+    "static/media/deva-williamson-ygTzbTHgDnY-unsplash.png": "/developers__testwork/static/media/deva-williamson-ygTzbTHgDnY-unsplash.8cab0e1f1a2debd237c7.png",
+    "static/media/close-up-of-hair-dryer-and-brush.png": "/developers__testwork/static/media/close-up-of-hair-dryer-and-brush.b0805d79f2cf2319ce0a.png",
+    "static/media/two-miniature-green-blue-shopping-cart-yellow-background.png": "/developers__testwork/static/media/two-miniature-green-blue-shopping-cart-yellow-background.69d8173ea7b75d7160f6.png",
+    "static/media/Cart.png": "/developers__testwork/static/media/Cart.a7d36abd915a4f20b32c.png",
+    "static/media/Orders.png": "/developers__testwork/static/media/Orders.edd911a3b358ee5e3106.png",
+    "static/media/basket.png": "/developers__testwork/static/media/basket.1b542225e6a3fc8cb936.png",
+    "static/media/vizual.png": "/developers__testwork/static/media/vizual.4766c0ff2606591210bb.png",
+    "static/media/techic.png": "/developers__testwork/static/media/techic.082407aa041aaf26841c.png",
+    "static/media/content.png": "/developers__testwork/static/media/content.50627e1a6430a6a251b6.png",
+    "static/media/testing.png": "/developers__testwork/static/media/testing.fa001e633ee98873a0a9.png",
+    "static/media/analiz.png": "/developers__testwork/static/media/analiz.1726b5a726e9a71efb1d.png",
+    "static/media/shape_wave_258.png": "/developers__testwork/static/media/shape_wave_258.daddd76e3ec10d5377ea.png",
+    "static/media/shape_wave_257.png": "/developers__testwork/static/media/shape_wave_257.1a96841c14a383fb1711.png",
+    "index.html": "/developers__testwork/index.html",
+    "static/media/211690_up_arrow_icon.svg": "/developers__testwork/static/media/211690_up_arrow_icon.7c081b09a3a7f3c79f8adaa22077d33a.svg",
+    "static/media/211687_down_arrow_icon.svg": "/developers__testwork/static/media/211687_down_arrow_icon.1c357e6bb5e77099849e379442ba9e2e.svg",
+    "main.f975c49d.css.map": "/developers__testwork/static/css/main.f975c49d.css.map",
+    "main.7bb4757e.js.map": "/developers__testwork/static/js/main.7bb4757e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f975c49d.css",
+    "static/js/main.7bb4757e.js"
+  ]
+}
