@@ -39,8 +39,8 @@ const CarouselView = () => {
 
         <Carousel>
           {content &&
-            content.map((item) => (
-              <article className={styles.item}>
+            content.map((item, index) => (
+              <article className={styles.item} key={index}>
                 <div className={styles.item__content}>
                   <div className={styles.item__text}>
                     <h3>

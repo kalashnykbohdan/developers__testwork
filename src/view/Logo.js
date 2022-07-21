@@ -4,7 +4,6 @@ const Logo = () => {
   return (
     <svg
       width="100%"
-      height="auto"
       viewBox="0 0 136 35"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -74,8 +73,8 @@ const Logo = () => {
           y2="33274.9"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#ACC0FE" />
-          <stop offset="1" stop-color="#4B086D" />
+          <stop stopColor="#ACC0FE" />
+          <stop offset="1" stopColor="#4B086D" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_601_30"
@@ -85,8 +84,8 @@ const Logo = () => {
           y2="34247"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#ACC0FE" />
-          <stop offset="1" stop-color="#4B086D" />
+          <stop stopColor="#ACC0FE" />
+          <stop offset="1" stopColor="#4B086D" />
         </linearGradient>
       </defs>
     </svg>

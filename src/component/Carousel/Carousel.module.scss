@@ -45,6 +45,15 @@
     width: 100%;
     height: auto;
     transform: rotate(270deg);
+    
+}
+
+.carousel__bth:active .carousel__bthL_img {
+    filter: invert(1);
+}
+
+.carousel__bth:active .carousel__bthR_img{
+    filter: invert(1);
 }
 
 @media screen and (min-width: 768px) {

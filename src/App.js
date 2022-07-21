@@ -1,7 +1,6 @@
 import style from "./App.module.scss";
 import Header from "./view/Header";
-import Order from "./view/Main/Order";
-import Drawdown from "./view/Main/Drawdown";
+import Services from "./view/Main/Services";
 import CarouselView from "./view/Main/CarouselView";
 import Gallery from "./view/Main/Gallery";
 import Footer from "./view/Footer";
@@ -68,14 +67,14 @@ function App() {
           </PageView>
         </div>
       </div>
-      <Drawdown id="services" />
-      <CarouselView id="stages" />
+      <Services />
+      <CarouselView />
       <Gallery />
       <div className={style.wrapper}>
         <div className="container">
           <img
             src={require("./image/shape_sphere_blue.png")}
-            className="background__img2"
+            className={style.background__img2}
           />
           <PageView url_img={Orders}>
             <h2 className={style.title_page2}>Необходимо больше информации?</h2>

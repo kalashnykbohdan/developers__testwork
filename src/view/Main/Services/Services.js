@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import styles from "./Drawdown.module.scss";
+import React, { useState } from "react";
+import styles from "./Services.module.scss";
 import ArrowDown from "./../../../image/arrow/211687_down_arrow_icon.svg";
 import ArrowUp from "./../../../image/arrow/211690_up_arrow_icon.svg";
 
@@ -26,8 +26,7 @@ const data = [
   },
 ];
 
-const Drawdown = () => {
-  const [state, setState] = useState(data);
+const Services = () => {
   return (
     <div className={styles.drawdown}>
       <div className="container">
@@ -36,8 +35,8 @@ const Drawdown = () => {
             Что входит в услугу по созданию дизайна интернет-магазина?
           </h2>
           <ul className={styles.drawdown__list}>
-            {state &&
-              state.map((item) => (
+            {data &&
+              data.map((item) => (
                 <DrawdownItem key={item.title} element={item} />
               ))}
           </ul>
@@ -51,7 +50,7 @@ const Drawdown = () => {
   );
 };
 
-export default Drawdown;
+export default Services;
 
 const DrawdownItem = ({ element }) => {
   const [active, setActive] = useState(false);

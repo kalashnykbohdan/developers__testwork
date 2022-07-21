@@ -49,6 +49,7 @@ const Footer = () => {
                 <ul className={styles.social__list}>
                   {social_icons.map((item, index) => (
                     <li
+                      key={index}
                       className={
                         index === 3
                           ? styles.social__item + " " + styles.social__item3
@@ -71,8 +72,8 @@ const Footer = () => {
               </div>
             </div>
             <div className={styles.phone}>
-              {contacts.map((item) => (
-                <div className={styles.phone__item}>
+              {contacts.map((item, index) => (
+                <div className={styles.phone__item} key={index}>
                   <p className={styles.phone__item_name}>{item.name}</p>
                   <p className={styles.phone__item_namber}>{item.namber}</p>
                 </div>

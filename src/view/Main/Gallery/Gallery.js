@@ -51,8 +51,9 @@ const Gallery = () => {
             {matches ? (
               <>
                 {" "}
-                {data.map((item) => (
+                {data.map((item, index) => (
                   <article
+                    key={index}
                     style={{
                       backgroundImage: `url(${item.url_img})`,
                       backgroundPosition: "center",
