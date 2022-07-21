@@ -14,7 +14,8 @@
 }
 .logo{
     width: 136px;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .burger{
@@ -33,24 +34,30 @@
 .menu{
     display: none;
     position: absolute;
-    top: 49px;
+    top: 42px;
     background-color: $primary-color;
     width: 100%;
     margin-left: -20px;
     z-index: 4;
 }
 .menu__list{
+    margin: 0;
+    padding: 40px 0;
     list-style: none;
 }
 .menu__item{
-    // padding: 20px 0;
+    padding: 10px 0;
 }
 .menu__button{
     color: white;
+    font-family: 'Montserrat';
     font-size: 17px;
+    font-weight: 800;
     line-height: 27px;
     text-decoration: none;
+    text-transform: uppercase;
 }
+
 .menu__button_order{
     display: none;
 }
@@ -59,17 +66,12 @@
     display: block;
 }
 
+
 @media screen and (min-width: 768px) {
-    .main{
-        height: 95px;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+    .main{height: 95px;}
     .logo{
-        width: 242px;
+        width: 200px;
         height: 100%;
     }
     .burger{
@@ -78,13 +80,26 @@
     .menu {
         display: block;
         position: static;
-        max-width: 600px;
+        width: 480px;
+        
+
         margin-left: 0px;
+    }
+    .menu__button{
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+        text-transform: unset;
     }
     .menu__list{
         display: flex;
         justify-content:space-between;
         align-items: center;
+        padding: 0;
+    }
+
+    .menu__item{
+        padding: 0;
     }
     // .menu__button{
     // }
@@ -98,6 +113,7 @@
     //     font-size: 17px;
     //     line-height: 27px;
     // }
+
     .menu__button_order{
         display: block;
         padding: 10px 10px;
@@ -118,4 +134,21 @@
         background-color: white;
         color: $primary-color;
       }
+}
+@media screen and (min-width: 1280px) {
+    .menu{
+        width: 580px;
+    }
+
+    .menu__button{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.5px;
+        text-transform: unset;
+    }
+    .logo{
+        width: 242px;
+        height: 100%;
+    }
+    
 }

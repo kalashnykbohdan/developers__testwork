@@ -126,9 +126,21 @@ const FormaSend = () => {
                   >
                     Отправить
                   </button>
+                  <img
+                    className={styles.background__phone}
+                    src={require("./../../../image/form/phone call.243.png")}
+                  />
+                  <img
+                    className={styles.background__group}
+                    src={require("./../../../image/form/Group 175.png")}
+                  />
                 </form>
               )}
             </Formik>
+            <img
+              src={require("./../../../image/form/Postpaid.png")}
+              className={styles.img}
+            />
           </div>
         </div>
       </div>

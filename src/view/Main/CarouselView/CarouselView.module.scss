@@ -1,7 +1,7 @@
 @import '../../../variables.scss';
 
 .main {
-    padding: 42px 0;
+    padding: 120px 0;
     overflow: hidden;
 }
 .all_items_container{
@@ -34,6 +34,13 @@
     margin: 0 auto;
     width: 220px;
     padding: 33px 0;
+}
+
+.background__sphere{
+    display: none;
+}
+.background__wave{
+    display: none;
 }
 
 
@@ -85,6 +92,33 @@
         flex-direction: row;
         min-height: 300px;
     }
+    .background__sphere{
+        display: block;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: -50px;
+        left: -200px;
+        
+    }
+    .background__wave{
+        display: block;
+        position: absolute;
+        bottom: -80px;
+        right: -200px;
+    }
 
     // overflow: hidden;
+}
+
+@media screen and (min-width: 1280px){
+    .background__sphere{
+        top: -50px;
+        left: -200px;
+        
+    }
+    .background__wave{
+        bottom: -80px;
+        right: -200px;
+    }
 }

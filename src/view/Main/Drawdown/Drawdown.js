@@ -42,6 +42,10 @@ const Drawdown = () => {
               ))}
           </ul>
         </div>
+        <img
+          src={require("./../../../image/bag.png")}
+          className={styles.background__img}
+        />
       </div>
     </div>
   );

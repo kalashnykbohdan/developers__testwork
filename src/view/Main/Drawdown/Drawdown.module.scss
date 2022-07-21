@@ -3,6 +3,7 @@
 .drawdown{
     background-color: #DAECFF;
     padding: 16px 0;
+    overflow: hidden;
 }
 .drawdown__title{
     margin: 0;
@@ -121,6 +122,9 @@
 .rawdown__item_text_active{
     display: block;
 }
+.background__img{
+    display: none;
+}
 
 @media screen and (min-width: 768px){
     .drawdown{
@@ -136,5 +140,16 @@
         font-size: 18px;
         line-height: 31.5px;
         
+    }
+    .background__img{
+        display: block;
+        position: absolute;
+        bottom: -50px;
+        right: -200px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .background__img{
+        right: -250px;
     }
 }

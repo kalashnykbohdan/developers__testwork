@@ -46,7 +46,7 @@ const Gallery = () => {
     <div className={styles.main}>
       <div className="container">
         <div className={styles.content}>
-          <h2 className={styles.title}></h2>
+          <h2 className={styles.title}>Примеры онлайн-магазинов</h2>
           <div className={styles.gallery}>
             {matches ? (
               <>
@@ -203,6 +203,14 @@ const Gallery = () => {
               </Carousel>
             )}
           </div>
+          <img
+            src={require("./../../../image/gallery/wave.png")}
+            className={styles.backround__wave}
+          />
+          <img
+            src={require("./../../../image/shape_sphere_grey.png")}
+            className={styles.backround__sphera}
+          />
         </div>
       </div>
     </div>

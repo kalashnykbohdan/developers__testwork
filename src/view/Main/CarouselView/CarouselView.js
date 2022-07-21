@@ -53,6 +53,14 @@ const CarouselView = () => {
               </article>
             ))}
         </Carousel>
+        <img
+          src={require("./../../../image/shape_sphere_grey.png")}
+          className={styles.background__sphere}
+        />
+        <img
+          src={require("./../../../image/shape_wave_blue.png")}
+          className={styles.background__wave}
+        />
       </div>
     </div>
   );
