@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developers__testwork/static/css/main.eb3033f5.css",
-    "main.js": "/developers__testwork/static/js/main.3e9b5f59.js",
+    "main.css": "/developers__testwork/static/css/main.e8436ea2.css",
+    "main.js": "/developers__testwork/static/js/main.781ca282.js",
     "static/media/pexels-shiny-diamond-3373739.png": "/developers__testwork/static/media/pexels-shiny-diamond-3373739.5a5707b3aabe266370b8.png",
     "static/media/color-palette-catalogue-scheme-roller.png": "/developers__testwork/static/media/color-palette-catalogue-scheme-roller.6d803f69cbc062441738.png",
     "static/media/baby-s-breath-flower-bottom-purple-backdrop.png": "/developers__testwork/static/media/baby-s-breath-flower-bottom-purple-backdrop.507a9e782ea6de8e1162.png",
@@ -9,7 +9,6 @@
     "static/media/close-up-of-hair-dryer-and-brush.png": "/developers__testwork/static/media/close-up-of-hair-dryer-and-brush.b0805d79f2cf2319ce0a.png",
     "static/media/two-miniature-green-blue-shopping-cart-yellow-background.png": "/developers__testwork/static/media/two-miniature-green-blue-shopping-cart-yellow-background.69d8173ea7b75d7160f6.png",
     "static/media/Orders.png": "/developers__testwork/static/media/Orders.edd911a3b358ee5e3106.png",
-    "static/media/basket.png": "/developers__testwork/static/media/basket.1b542225e6a3fc8cb936.png",
     "static/media/go_to_market_147.png": "/developers__testwork/static/media/go_to_market_147.1b542225e6a3fc8cb936.png",
     "static/media/vizual.png": "/developers__testwork/static/media/vizual.4766c0ff2606591210bb.png",
     "static/media/phone call.243.png": "/developers__testwork/static/media/phone call.243.678be9b4fa7926743b80.png",
@@ -23,16 +22,15 @@
     "static/media/Group 175.png": "/developers__testwork/static/media/Group 175.ca11f8b5bf7b6076193d.png",
     "static/media/shape_wave_258.png": "/developers__testwork/static/media/shape_wave_258.daddd76e3ec10d5377ea.png",
     "static/media/shape_sphere_grey.png": "/developers__testwork/static/media/shape_sphere_grey.60affa37ebffea7ac768.png",
-    "static/media/shape_wave_257.png": "/developers__testwork/static/media/shape_wave_257.1a96841c14a383fb1711.png",
     "static/media/shape_wave_blue.png": "/developers__testwork/static/media/shape_wave_blue.1a96841c14a383fb1711.png",
     "index.html": "/developers__testwork/index.html",
     "static/media/211690_up_arrow_icon.svg": "/developers__testwork/static/media/211690_up_arrow_icon.7c081b09a3a7f3c79f8adaa22077d33a.svg",
     "static/media/211687_down_arrow_icon.svg": "/developers__testwork/static/media/211687_down_arrow_icon.1c357e6bb5e77099849e379442ba9e2e.svg",
-    "main.eb3033f5.css.map": "/developers__testwork/static/css/main.eb3033f5.css.map",
-    "main.3e9b5f59.js.map": "/developers__testwork/static/js/main.3e9b5f59.js.map"
+    "main.e8436ea2.css.map": "/developers__testwork/static/css/main.e8436ea2.css.map",
+    "main.781ca282.js.map": "/developers__testwork/static/js/main.781ca282.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb3033f5.css",
-    "static/js/main.3e9b5f59.js"
+    "static/css/main.e8436ea2.css",
+    "static/js/main.781ca282.js"
   ]
 }
